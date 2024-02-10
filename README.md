@@ -1,5 +1,3 @@
 # my-react-app
-Sample Application for react with CICD 1234	`:wq
-`:wq
-`:wq
+Sample Application for react with CICD 
 
