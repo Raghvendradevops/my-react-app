@@ -8,13 +8,13 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Checkout source code
-        uses: node:latest
+        uses: actions/checkout@v2
 
       - name: Generate deployment package
         run: zip -r deploy.zip . -x '*.git*'
 
       - name: Deploy to EB
-        uses: Raghvendradevops/my-react-app.git
+        uses: ""
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
