@@ -8,7 +8,7 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Checkout source code
-        uses: actions/checkout@v2
+        uses: node:latest
 
       - name: Generate deployment package
         run: zip -r deploy.zip . -x '*.git*'
