@@ -16,11 +16,11 @@ jobs:
       - name: Deploy to EB
         uses: einaregilsson/beanstalk-deploy@v21
         with:
-          aws_access_key: AKIASQQZGYJS2VSZWW43
-          aws_secret_key: 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
-          application_name: my-react-application
-          environment_name: My-react-application-env-1
+          aws_access_key: AKIAYS2NTCTYCR6WW4FW
+          aws_secret_key: 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
+          application_name: MyApplication
+          environment_name: MyApplication-env
           version_label: ${{ github.sha}}
-          existing_bucket_name: elasticbeanstalk-ap-south-1-643867272633
+          existing_bucket_name: elasticbeanstalk-ap-south-1-590183863536
           region: ap-south-1
           deployment_package: deploy.zip
