@@ -16,8 +16,8 @@ jobs:
       - name: Deploy to EB
         uses: einaregilsson/beanstalk-deploy@v21
         with:
-          aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws_access_key: AKIA4MTWHN7PW2CGYVFC
+          aws_secret_key: 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
           application_name: monster123-Reat-application
           environment_name: Monster123-Reat-application-env
           version_label: ${{ github.sha}}
