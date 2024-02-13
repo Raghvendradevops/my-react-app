@@ -1,2 +1,2 @@
 # my-react-app
-Sample Application for react with CICDssssddddddd123asd
+Sample Application for react with elasticbean stak
